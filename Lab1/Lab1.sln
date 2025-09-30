@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1.csproj", "{A5494458-FFA7-47E0-9C59-0C4406EB401C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1Test", "..\Lab1Test\Lab1Test.csproj", "{C3DDC8B0-C899-4A1D-A092-B4A3BDBC4236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowCalculatorTests", "..\SpecFlowCalculatorTests\SpecFlowCalculatorTests.csproj", "{0679A601-900A-4EF9-A43F-F2645EEDD5CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5494458-FFA7-47E0-9C59-0C4406EB401C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5494458-FFA7-47E0-9C59-0C4406EB401C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5494458-FFA7-47E0-9C59-0C4406EB401C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5494458-FFA7-47E0-9C59-0C4406EB401C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DDC8B0-C899-4A1D-A092-B4A3BDBC4236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DDC8B0-C899-4A1D-A092-B4A3BDBC4236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DDC8B0-C899-4A1D-A092-B4A3BDBC4236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DDC8B0-C899-4A1D-A092-B4A3BDBC4236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0679A601-900A-4EF9-A43F-F2645EEDD5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0679A601-900A-4EF9-A43F-F2645EEDD5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0679A601-900A-4EF9-A43F-F2645EEDD5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0679A601-900A-4EF9-A43F-F2645EEDD5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
