@@ -15,7 +15,7 @@ jobs:
 
     env:
       Solution_Name: Lab1.sln
-      Test_Project_Path_1: Lab1Test.UnitTests/Lab1Test.UnitTests.csproj
+      Test_Project_Path_1: Lab1Test/Lab1Test.csproj
       Test_Project_Path_2: SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj
 
     steps:
