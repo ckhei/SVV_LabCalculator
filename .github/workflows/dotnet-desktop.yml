@@ -9,14 +9,11 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-    defaults:
-      run:
-        working-directory: ./Lab1/   # 👈 adjust if needed
 
     env:
-      Solution_Name: Lab1.sln
-      Test_Project_Path_1: ./Lab1Test/Lab1Test.csproj
-      Test_Project_Path_2: ./SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj
+      Solution_Name: Lab1/Lab1.sln
+      Test_Project_Path_1: Lab1Test/Lab1Test.csproj
+      Test_Project_Path_2: SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj
 
     steps:
       - uses: actions/checkout@v3
