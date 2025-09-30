@@ -9,22 +9,24 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-    defaults:
-      run:
-        working-directory: ./Lab1/   # 👈 adjust if needed
 
     env:
-      Solution_Name: Lab1.sln
+      Solution_Name: Lab1/Lab1.sln
       Test_Project_Path_1: Lab1Test/Lab1Test.csproj
       Test_Project_Path_2: SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj
 
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup .NET
+      - name: Setup .NET 6
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 8.0.x   # or your project version
+          dotnet-version: 6.0.x
+      
+      - name: Setup .NET 8
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
 
       - name: Restore dependencies
         run: dotnet restore ${{ env.Solution_Name }}
