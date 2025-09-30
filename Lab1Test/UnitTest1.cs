@@ -37,9 +37,9 @@ public class Tests
     }
 
     [Test]
-    public void Divide_WhenDividingTwoNumbers_ResultEqualToQuotient()
+    public void Lab1Divide_WhenDividingTwoNumbers_ResultEqualToQuotient()
     {
-        double result = _calculator.Divide(10, 2);
+        double result = _calculator.Lab1Divide(10, 2);
         Assert.That(result, Is.EqualTo(5));
     }
 
@@ -48,9 +48,9 @@ public class Tests
     [TestCase(0, 0)]
     [TestCase(0, 10)]
     [TestCase(10, 0)]
-    public void Divide_WithZerosAsInputs_ResultThrowArgumentException(double a, double b)
+    public void Lab1Divide_WithZerosAsInputs_ResultThrowArgumentException(double a, double b)
     {
-        Assert.That(() => _calculator.Divide(a, b), Throws.ArgumentException);
+        Assert.That(() => _calculator.Lab1Divide(a, b), Throws.ArgumentException);
     }
     
     [Test]
